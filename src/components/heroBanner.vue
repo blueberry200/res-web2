@@ -1,7 +1,7 @@
 <template>
     <div id="heroBanner">
       <div class="videoContainer">
-        <video :src="require(`@/assets/steakHero.mp4`)" autoplay muted loop webkit-playsinline playsinline></video>
+        <video src="@/assets/steakHero.mp4" autoplay muted loop webkit-playsinline playsinline></video>
       </div>
       <div class="textContainer">
         <div class="titleSen titleSen1">
