@@ -1,0 +1,100 @@
+$mainColor:#ff5900;
+$minorColor: #ffc999;
+$bgColor:#000000;
+
+//outterContainer主要是設定靜態背景顏色及背景範圍，讓元件動態載入之前背景能保持背景主色調，所以高度設為全視窗，使用min-height能讓背景高度隨動態元件延展，除了App.Vue，各頁面元件也會使用此類。
+.outterContainer{
+    min-height: 100vh;
+    background-color: $bgColor;
+    color: white;
+    position:relative;
+    z-index: -20;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    .titleText{
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 150px;
+        margin-top: 100px;
+        >h1{
+          width: 100%;
+          text-align: center;
+          font-size: 2.5rem;
+          display: block;
+          text-shadow: -2px -2px $mainColor, 2px 2px $mainColor;
+        }
+        >p{
+          width: 100%;
+          margin-top: 10px;
+          text-align: center;
+          text-shadow: 0 0 1.2em $mainColor;
+        }
+    }
+    .titleLine{
+      width: 140px;
+      height: 1px;
+      border: 1px solid $mainColor;
+      box-shadow: 0 0 3px 1px $mainColor;
+    }
+    .resBtnDiv{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 50px;
+      .resBtn{
+        width: 170px;
+        padding: 10px 0px;
+        text-align: center;
+        border: 2px solid $minorColor;
+        color: $minorColor;
+        font-family: "DFKai-SB","STKaiti";
+        transition: all 0.5s ease;
+        box-shadow: 6px 6px 15px 3px #000;
+        cursor: pointer;
+      }
+      .resBtn:hover{
+        background: $minorColor;
+        color: #000;
+        transition: all 0.5s ease;
+      }
+    }
+    .bgContainer{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      @media screen and (min-width: 992px){
+        clip: rect(0, auto, auto, 0);
+      }
+      .bg{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100%;
+        background-size: cover;
+        z-index: -10;
+        @media screen and (min-width: 992px){
+          position: fixed;
+        }
+      }
+    }
+}
+@media screen and (max-width:991px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    
+}
+
+@media screen and (max-width:575px) {
+    
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "id": "steak",
+    "category": "排餐",
+    "dishes": [
+      {
+        "dishSrc": "steak1.jpg",
+        "dishChName": "厚切菲力",
+        "dishEnName": "Fillet Steak",
+        "dishPrice": "729"
+      },
+      {
+        "dishSrc": "steak2.jpg",
+        "dishChName": "安格斯板腱心",
+        "dishEnName": "Blade Steak",
+        "dishPrice": "469"
+      },
+      {
+        "dishSrc": "steak3.jpg",
+        "dishChName": "頂級肋眼",
+        "dishEnName": "Rib Eye",
+        "dishPrice": "519"
+      },
+      {
+        "dishSrc": "steak4.jpg",
+        "dishChName": "安格斯牛小排",
+        "dishEnName": "Short Ribs",
+        "dishPrice": "719"
+      },
+      {
+        "dishSrc": "steak5.jpg",
+        "dishChName": "安格斯沙朗",
+        "dishEnName": "Sirloin Steak",
+        "dishPrice": "629"
+      },
+      {
+        "dishSrc": "steak6.jpg",
+        "dishChName": "醬燒梅花豬",
+        "dishEnName": "Sauce Butt",
+        "dishPrice": "329"
+      },
+      {
+        "dishSrc": "steak7.jpg",
+        "dishChName": "炭烤豬里肌",
+        "dishEnName": "Loin Pork",
+        "dishPrice": "349"
+      },
+      {
+        "dishSrc": "steak8.jpg",
+        "dishChName": "西西里烤雞腿",
+        "dishEnName": "Sicilian-style Chicken Legs",
+        "dishPrice": "329"
+      }
+    ]
+  },
+  {
+    "id": "light",
+    "category": "輕食",
+    "dishes": [
+      {
+        "dishSrc": "light1.jpg",
+        "dishChName": "松露奶油義大利麵",
+        "dishEnName": "Truffle Butter Pasta",
+        "dishPrice": "259"
+      },
+      {
+        "dishSrc": "light2.jpg",
+        "dishChName": "奶油培根蘑菇義大利麵",
+        "dishEnName": "Creamy Mushroom & Bacon Pasta",
+        "dishPrice": "239"
+      },
+      {
+        "dishSrc": "light3.jpg",
+        "dishChName": "瑪格麗特義大利麵",
+        "dishEnName": "Marguerite Pasta",
+        "dishPrice": "239"
+      },
+      {
+        "dishSrc": "light4.jpg",
+        "dishChName": "蒜味鮮蝦義大利麵",
+        "dishEnName": "Garlic Flavor Shrimp Pasta",
+        "dishPrice": "279"
+      },
+      {
+        "dishSrc": "light5.jpg",
+        "dishChName": "起司肉醬義大利麵",
+        "dishEnName": "Cheese Bolognese Pasta",
+        "dishPrice": "229"
+      }
+    ]
+  },
+  {
+    "id": "side",
+    "category": "小菜",
+    "dishes": [
+      {
+        "dishSrc": "side1.jpg",
+        "dishChName": "香檸醉蝦",
+        "dishEnName": "Lemon Drunken Shrimp",
+        "dishPrice": "369"
+      },
+      {
+        "dishSrc": "side2.jpg",
+        "dishChName": "生魚片總匯拼盤",
+        "dishEnName": "Sashimi Platter",
+        "dishPrice": "489"
+      },
+      {
+        "dishSrc": "side3.jpg",
+        "dishChName": "奶油鹽焗鮭魚",
+        "dishEnName": "Creamy Salt baked Salmon",
+        "dishPrice": "359"
+      },
+      {
+        "dishSrc": "side4.jpg",
+        "dishChName": "炭烤雞肉串",
+        "dishEnName": "Yakitori",
+        "dishPrice": "189"
+      },
+      {
+        "dishSrc": "side5.jpg",
+        "dishChName": "酥炸餃子",
+        "dishEnName": "Fried Dumplings",
+        "dishPrice": "199"
+      },
+      {
+        "dishSrc": "side6.jpg",
+        "dishChName": "波浪脆薯",
+        "dishEnName": "Crinkle Fries",
+        "dishPrice": "109"
+      }
+    ]
+  },
+  {
+    "id": "dessert",
+    "category": "甜點",
+    "dishes": [
+      {
+        "dishSrc": "dessert1.jpg",
+        "dishChName": "提拉米蘇蛋糕",
+        "dishEnName": "Tiramisu Cake",
+        "dishPrice": "129"
+      },
+      {
+        "dishSrc": "dessert2.jpg",
+        "dishChName": "燕麥優格水果杯",
+        "dishEnName": "Oatmeal Yogurt Parfait",
+        "dishPrice": "149"
+      },
+      {
+        "dishSrc": "dessert3.jpg",
+        "dishChName": "蔓越莓烤布蕾",
+        "dishEnName": "Cranberry Creme Brulee",
+        "dishPrice": "119"
+      },
+      {
+        "dishSrc": "dessert4.jpg",
+        "dishChName": "草莓生巧克力派",
+        "dishEnName": "Strawberry Raw Chocolate Pie",
+        "dishPrice": "139"
+      },
+      {
+        "dishSrc": "dessert5.jpg",
+        "dishChName": "馬卡龍拼盤",
+        "dishEnName": "Macaron Platter",
+        "dishPrice": "369"
+      }
+    ]
+  },
+  {
+    "id": "drink",
+    "category": "飲料",
+    "dishes": [
+      {
+        "dishSrc": "drink1.jpg",
+        "dishChName": "草莓汁",
+        "dishEnName": "Strawberry Juice",
+        "dishPrice": "129"
+      },
+      {
+        "dishSrc": "drink2.jpg",
+        "dishChName": "柳橙汁",
+        "dishEnName": "Orange Juice",
+        "dishPrice": "89"
+      },
+      {
+        "dishSrc": "drink3.jpg",
+        "dishChName": "生啤酒",
+        "dishEnName": "Draft Beer",
+        "dishPrice": "79"
+      },
+      {
+        "dishSrc": "drink4.jpg",
+        "dishChName": "可可飲",
+        "dishEnName": "Cocoa",
+        "dishPrice": "119"
+      },
+      {
+        "dishSrc": "drink5.jpg",
+        "dishChName": "牛奶",
+        "dishEnName": "Milk",
+        "dishPrice": "119"
+      },
+      {
+        "dishSrc": "drink6.jpg",
+        "dishChName": "檸檬蘇打",
+        "dishEnName": "Lemon Soda",
+        "dishPrice": "99"
+      }
+    ]
+  }
+]

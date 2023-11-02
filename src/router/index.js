@@ -10,10 +10,22 @@ const routes = [
   {
     path: '/about',
     name: 'about',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
-    component: () => import(/* webpackChunkName: "about" */ '../views/AboutView.vue')
+    component: () => import('../views/AboutView.vue')
+  },
+  {
+    path: '/menu',
+    name: 'menu',
+    component: () => import('../views/MenuView.vue')
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('../views/ContactView.vue')
+  },
+  {
+    path: '/privacy',
+    name: 'privacy',
+    component: () => import('../views/PrivacyView.vue')
   }
 ]
 
@@ -21,5 +33,17 @@ const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
   routes
 })
+
+router.afterEach(() => {
+	window.scrollTo(0, 0);
+  let navUlContainer = document.getElementById("navUlContainer");
+  let mobNavTog = document.getElementById("mobNavTog");
+   //在手機版主選單被點擊才會更改toggle圖標
+  if(navUlContainer.classList.contains("mobileNav")){
+    navUlContainer.classList.remove("mobileNav");
+    mobNavTog.classList.toggle("fa-bars");
+    mobNavTog.classList.toggle("fa-xmark");
+  }
+});
 
 export default router

@@ -1,0 +1,88 @@
+.outterContainer {
+  min-height: 100vh;
+  background-color: #000000;
+  color: white;
+  position: relative;
+  z-index: -20;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+.outterContainer .titleText {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 150px;
+  margin-top: 100px;
+}
+.outterContainer .titleText > h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 2.5rem;
+  display: block;
+  text-shadow: -2px -2px #ff5900, 2px 2px #ff5900;
+}
+.outterContainer .titleText > p {
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  text-shadow: 0 0 1.2em #ff5900;
+}
+.outterContainer .titleLine {
+  width: 140px;
+  height: 1px;
+  border: 1px solid #ff5900;
+  box-shadow: 0 0 3px 1px #ff5900;
+}
+.outterContainer .resBtnDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.outterContainer .resBtnDiv .resBtn {
+  width: 170px;
+  padding: 10px 0px;
+  text-align: center;
+  border: 2px solid #ffc999;
+  color: #ffc999;
+  font-family: "DFKai-SB", "STKaiti";
+  transition: all 0.5s ease;
+  box-shadow: 6px 6px 15px 3px #000;
+  cursor: pointer;
+}
+.outterContainer .resBtnDiv .resBtn:hover {
+  background: #ffc999;
+  color: #000;
+  transition: all 0.5s ease;
+}
+.outterContainer .bgContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+}
+@media screen and (min-width: 992px) {
+  .outterContainer .bgContainer {
+    clip: rect(0, auto, auto, 0);
+  }
+}
+.outterContainer .bgContainer .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100%;
+  background-size: cover;
+  z-index: -10;
+}
+@media screen and (min-width: 992px) {
+  .outterContainer .bgContainer .bg {
+    position: fixed;
+  }
+}/*# sourceMappingURL=main.css.map */
