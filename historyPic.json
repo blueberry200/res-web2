@@ -1,0 +1,206 @@
+[
+  {
+      "id": "1",
+      "picCount": 2,
+      "picSrc": [
+          "history11.jpg",
+          "history12.jpg"
+      ],
+      "picArr": [
+          {
+            "width": 30,
+            "height": 25,
+            "top": 20,
+            "left": 20,
+            "scale": 0.8,
+            "zIndex": 2
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": -20,
+            "scale": 0.9,
+            "zIndex": 1
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 3
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 4
+          }
+      ],
+      "picText": "西元2010年，肉霸餐飲股份有限公司正式成立，創辦人Bob Williams透過中央畜產會集結肉質檢驗團隊，並與台灣畜牧業職業工會合作執行品鑑專案，規劃台灣肉質品鑑標準的同時，也物色未來可能合作的數家畜牧場，這段期間皆以研究報告作為主要收入來源。"
+  },
+  {
+      "id": "2",
+      "picCount": 3,
+      "picSrc": [
+          "history21.jpg",
+          "history22.jpg",
+          "history23.jpg"
+      ],
+      "picArr": [
+          {
+            "width": 30,
+            "height": 25,
+            "top": -40,
+            "left": 10,
+            "scale": 0.8,
+            "zIndex": 1
+          },{
+            "width": 30,
+            "height": 25,
+            "top": -20,
+            "left": -20,
+            "scale": 0.75,
+            "zIndex": 2
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 10,
+            "left": 20,
+            "scale": 0.6,
+            "zIndex": 3
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 4
+          }
+      ],
+      "picText": "經過了兩年的品鑑專案執行，在台灣畜牧業已奠定了肉霸的知名度，專案中Bob Williams也認識了行銷專家Julian Daly，該年建立了肉霸人才招募網站，並在線上線下同時執行集資造勢活動，傑出的數位通路策略吸引了多名餐飲投資大師的加入，肉霸餐廳正式開業。"
+  },
+  {
+      "id": "3",
+      "picCount": 3,
+      "picSrc": [
+          "history31.jpg",
+          "history32.jpg",
+          "history33.jpg"
+      ],
+      "picArr": [
+          {
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 10,
+            "scale": 0.8,
+            "zIndex": 1
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 5,
+            "left": -15,
+            "scale": 0.9,
+            "zIndex": 2
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 45,
+            "left": 10,
+            "scale": 0.8,
+            "zIndex": 3
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 4
+          }
+      ],
+      "picText": "從餐廳開幕後，肉霸的天使投資人提供在地化營運策略，包含在台灣國際廚藝美食挑戰賽招標人才、上下游廠商合約規範制定、料理製程統一及傳承制度...等，在制度逐步完善的同時，年營業額也突破千萬，在台北成為了熱門話題的黑馬品牌。"
+  },
+  {
+      "id": "4",
+      "picCount": 4,
+      "picSrc": [
+          "history41.jpg",
+          "history42.jpg",
+          "history43.jpg",
+          "history44.jpg"
+      ],
+      "picArr": [
+          {
+            "width": 30,
+            "height": 25,
+            "top": -50,
+            "left": 20,
+            "scale": 0.8,
+            "zIndex": 3
+          },{
+            "width": 30,
+            "height": 25,
+            "top": -30,
+            "left": -10,
+            "scale": 1,
+            "zIndex": 1
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 15,
+            "left": 0,
+            "scale": 0.7,
+            "zIndex": 4
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 30,
+            "left": 40,
+            "scale": 0.6,
+            "zIndex": 2
+          }
+      ],
+      "picText": "爆紅的隔年，西元2016又是一個肉霸深蹲的週期，重新發揚肉質鑑定的硬核技能，不定時開辦線下肉質品鑑茶會、開立肉質分析線上課程，並將獨家冷凍肉品配送至全台各地，在電商通路打下扎實的基礎，並與中華餐旅文化交流協會合作，成立料理試吃專案小組，以長期不間斷試吃活動企劃，反覆調整以「耐吃」為前提的料理手法。"
+  },
+  {
+      "id": "5",
+      "picCount": 2,
+      "picSrc": [
+          "history51.jpg",
+          "history52.jpg"
+      ],
+      "picArr": [
+          {
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 20,
+            "scale": 0.9,
+            "zIndex": 1
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 10,
+            "left": -20,
+            "scale": 0.7,
+            "zIndex": 2
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 3
+          },{
+            "width": 30,
+            "height": 25,
+            "top": 0,
+            "left": 0,
+            "scale": 0.9,
+            "zIndex": 4
+          }
+      ],
+      "picText": "西元2020年，疫情爆發，這是包含餐飲業在內的全球產業寒冬，肉霸多年的電商通路基礎加上原料品質有著業界楷模的標準，電商通路收益達到了創新高，縱使實體餐館因疫情客流下降，但公司總收益卻仍舊攀升，並在該年發展肉品加工相關規範，包含原物料物流、加工、保存...等，為台灣餐飲業堅守疫情最後的防線！"
+  }
+]
