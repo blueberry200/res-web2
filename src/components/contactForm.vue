@@ -96,6 +96,7 @@
         border: 3px solid #fff;
         border-radius: 30px;
         padding: 20px 10px;
+        margin: 0 0 50px;
         backdrop-filter: blur(10px);
         >form{
           >.container{
@@ -168,6 +169,9 @@
                   transition: all 0.5s ease;
                   box-shadow: 6px 6px 15px 3px #000;
                   background: transparent;
+                  >h4{
+                    margin: 0;
+                  }
                 }
                 >button:hover{
                   background: $minorColor;

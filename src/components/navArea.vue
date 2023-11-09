@@ -144,6 +144,7 @@
             >ul{
               display:flex;
               flex-wrap:wrap;
+              padding: 0;
               >li{
                 width: 100%;
               }

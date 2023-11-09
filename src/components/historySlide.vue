@@ -82,6 +82,7 @@
           border-right: 2px solid #ffffff;
           >ul{
             list-style: none;
+            padding: 0;
             >li{
               line-height: 3em;
               font-size: 1.3em;

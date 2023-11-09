@@ -56,6 +56,7 @@
       }
       >ol{
         width: 80%;
+        padding: 0;
         >li{
           margin: 40px 0;
           >h5{
