@@ -29,7 +29,7 @@
             <li @click="navClick()"><router-link to="/menu" class="nav-link">珍饌佳餚</router-link></li>
             <li @click="navClick()"><router-link to="/contact" class="nav-link">聯絡資訊</router-link></li>
           </ul>
-          <div class="mobNavInnerPic" @:click="toTop()">
+          <div class="mobNavInnerPic">
             <img src="@/assets/img/mobNavSteak.png"/>
           </div>
         </nav>
